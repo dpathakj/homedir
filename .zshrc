@@ -43,6 +43,7 @@ alias gs="git status"
 alias gd="git diff --color-words=."
 alias ga="git add"
 alias gc="git commit"
+alias gco="git checkout"
 
 if which git 2>&1 > /dev/null
 then
