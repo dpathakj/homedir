@@ -50,3 +50,9 @@ else
 fi
 
 export EDITOR=ecl
+
+# java - on os x, want java 8
+if which /usr/libexec/java_home 2>&1 > /dev/null
+then
+    export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+fi
