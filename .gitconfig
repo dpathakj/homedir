@@ -3,3 +3,5 @@
     email = dpathakjee@gmail.com
 [core]
     pager = less
+[push]
+	default = simple
