@@ -35,9 +35,6 @@ export PATH=$PATH:~/bin/util
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/node-v4.1.2-linux-x64/bin
 
-# magic is possible here: you can have emacs auto-launch as a daemon if it is
-# not running. but simple is better
-# alias ecl="emacsclient -t"
 alias g="git"
 alias gs="git status"
 alias gd="git diff --color-words=."
