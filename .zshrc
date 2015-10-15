@@ -31,6 +31,15 @@ setopt appendhistory autocd extendedglob nomatch notify
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
+alias rm="rm -i"
+alias l="less"
+r() {
+    printf 'Most recent 10 files in \e[31m'
+    printf $PWD
+    printf '\e[0m:\n'
+    ls -ltr | tail
+}
+
 export PATH=$PATH:~/bin/util
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/node-v4.1.2-linux-x64/bin
