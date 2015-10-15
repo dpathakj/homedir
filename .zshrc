@@ -33,6 +33,7 @@ bindkey -e
 
 alias rm="rm -i"
 alias l="less"
+alias d="dirs -v" #  todo: this doesn't work, find out why
 r() {
     printf 'Most recent 10 files in \e[31m'
     printf $PWD
