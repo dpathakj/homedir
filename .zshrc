@@ -1,3 +1,6 @@
+# Support tramp
+[[ $TERM == "dumb" ]] && unsetopt zle && PS1='$ ' && return;
+
 # The following lines were added by compinstall
 
 zstyle ':completion:*' auto-description '%d'
